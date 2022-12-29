@@ -11,6 +11,9 @@ public class SampleEntity_PersonConfigurations:IEntityTypeConfiguration<Domain.E
             .IsRequired()
             .HasMaxLength(5)
             .ValueGeneratedNever();
-        
+
+        builder.Property(e => e.FirstName)
+            .HasMaxLength(100);
+
     }
 }
