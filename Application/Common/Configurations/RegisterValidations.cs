@@ -1,12 +1,12 @@
 using System.Reflection;
-using Application.Services.SampleEntity_Person.Commands.CreateSampleEntity_Person;
-using Application.Services.SampleEntity_Person.Commands.DeleteSampleEntity_Person;
-using Application.Services.SampleEntity_Person.Commands.UpdateSampleEntity_Person;
+using Application.Services.SampleEntity_Persons.Commands.CreateSampleEntity_Person;
+using Application.Services.SampleEntity_Persons.Commands.DeleteSampleEntity_Person;
+using Application.Services.SampleEntity_Persons.Commands.UpdateSampleEntity_Person;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Application.Common.IOCConfigurations;
+namespace Application.Common.Configurations;
 
 public static class RegisterValidations
 {
