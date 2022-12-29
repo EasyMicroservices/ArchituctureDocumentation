@@ -18,6 +18,7 @@ public static class RegisterValidations
         service.AddScoped<IValidator<DeleteSampleEntity_PersonCommand> ,DeleteSampleEntity_PersonCommandValidator>();
         service.AddScoped<IValidator<UpdateSampleEntity_PersonCommand> ,UpdateSampleEntity_PersonCommandValidator>();
         
+        
         return service;
     }
 }
